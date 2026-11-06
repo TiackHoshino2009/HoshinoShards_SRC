@@ -1,0 +1,18 @@
+name: HoshinoShards
+version: 1.0.0
+main: com.hoshinoshop.shards.ShardsPlugin
+api-version: 1.21
+author: HoshinoShop
+depend: [PlaceholderAPI]
+commands:
+  shards:
+    description: Quản lý Shards
+    usage: /shards <subcommand>
+    aliases: [shard, s]
+permissions:
+  shards.admin:
+    description: Quyền admin cho Shards
+    default: op
+  shards.balance:
+    description: Xem số dư
+    default: true

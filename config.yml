@@ -1,0 +1,26 @@
+# Cấu hình TiackShards Plugin
+
+# Bật/tắt khu AFK
+afk-zone-enabled: true
+
+# Vùng AFK (tọa độ hình hộp)
+afk-zone:
+  world: world
+  min-x: -100
+  max-x: 100
+  min-y: 0
+  max-y: 256
+  min-z: -100
+  max-z: 100
+
+# Thời gian đứng yên (giây) để được coi là AFK
+afk-idle-threshold: 30
+
+# Số Shards nhận được mỗi lần AFK
+afk-reward-amount: 1
+
+# Khoảng thời gian giữa các lần nhận thưởng AFK (giây)
+afk-reward-interval: 60
+
+# Số Shards nhận khi giết người chơi
+kill-reward-amount: 5
